@@ -158,5 +158,3 @@ A busca exaustiva sofre com a explosão do número de atribuições possíveis. 
 
 Essa trajetória demonstra como os resolvedores SAT evoluíram de métodos puramente exploratórios para sistemas capazes de aprender com a própria busca, constituindo a base dos solucionadores utilizados atualmente em aplicações industriais e científicas de grande escala.
 
-* 
-
