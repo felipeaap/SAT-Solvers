@@ -165,7 +165,6 @@ Execution Time: 0.0012s
 ├── CDCL/
 │   └── solver.py
 │
-├── stats/
 ├── cnf.py
 ├── helpers.py
 ├── type_alias.py
