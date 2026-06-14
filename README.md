@@ -25,7 +25,7 @@ git clone https://github.com/seu-usuario/sat-solvers.git
 cd sat-solvers
 ```
 
-Crie e ative um ambiente virtual:
+(Opicional) Crie e ative um ambiente virtual:
 
 Linux/macOS:
 
@@ -41,15 +41,9 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Formato CNF (DIMACS)
 
-O framework utiliza arquivos no formato DIMACS.
+O CLI utiliza arquivos no formato DIMACS.
 
 Exemplo:
 
