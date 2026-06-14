@@ -22,7 +22,8 @@ def run_solver(solver_name: str,cnf_path: str):
     solver = SOLVERS[solver_name]
     cnf = load_dimacs(cnf_path)
     result = solver(cnf)
-    print(f"\nResult: {"SAT" if result else "UNSAT"}")
+    status = "SAT" if result else "UNSAT"
+    print(f"\nResult: {status}")
 
 
 def run_benchmark(solver_name: str):
